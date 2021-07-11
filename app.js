@@ -4,7 +4,7 @@ const livros = require('./database.js')
 // se for sim,mostrar as categorias disciplinas,perguntar qual categoria ele escolhe
 //se nao mostra todos os livros em ordem por quantidade de paginas
 
-
+///
 //pegar o input
 const readline = require('readline-sync')
 const  entradaInicial = readline.question('Deseja buscar um livro? S/N')
